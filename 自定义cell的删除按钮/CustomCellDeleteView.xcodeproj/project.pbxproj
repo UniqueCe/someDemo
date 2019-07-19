@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4D906C1F7A4519005B5B3E /* UIColor+HexStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D906B1F7A4519005B5B3E /* UIColor+HexStr.m */; };
+		4B9737731F7A37F600A55D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9737721F7A37F600A55D36 /* AppDelegate.m */; };
+		4B9737761F7A37F600A55D36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9737751F7A37F600A55D36 /* ViewController.m */; };
+		4B9737791F7A37F600A55D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9737771F7A37F600A55D36 /* Main.storyboard */; };
+		4B97377B1F7A37F600A55D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B97377A1F7A37F600A55D36 /* Assets.xcassets */; };
+		4B97377E1F7A37F600A55D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B97377C1F7A37F600A55D36 /* LaunchScreen.storyboard */; };
+		4B9737811F7A37F600A55D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9737801F7A37F600A55D36 /* main.m */; };
+		4B97378B1F7A37F600A55D36 /* CustomCellDeleteViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B97378A1F7A37F600A55D36 /* CustomCellDeleteViewTests.m */; };
+		4B9737961F7A37F600A55D36 /* CustomCellDeleteViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9737951F7A37F600A55D36 /* CustomCellDeleteViewUITests.m */; };
+		4B9737A71F7A38AC00A55D36 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9737A61F7A38AC00A55D36 /* TestCell.m */; };
+		4BFD27081F7A46BD00510182 /* TLTableCellDeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFD27071F7A46BD00510182 /* TLTableCellDeleteView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B9737871F7A37F600A55D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9737661F7A37F600A55D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B97376D1F7A37F600A55D36;
+			remoteInfo = CustomCellDeleteView;
+		};
+		4B9737921F7A37F600A55D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9737661F7A37F600A55D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B97376D1F7A37F600A55D36;
+			remoteInfo = CustomCellDeleteView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B4D906A1F7A4519005B5B3E /* UIColor+HexStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexStr.h"; sourceTree = "<group>"; };
+		4B4D906B1F7A4519005B5B3E /* UIColor+HexStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexStr.m"; sourceTree = "<group>"; };
+		4B97376E1F7A37F600A55D36 /* CustomCellDeleteView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellDeleteView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9737711F7A37F600A55D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B9737721F7A37F600A55D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B9737741F7A37F600A55D36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B9737751F7A37F600A55D36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B9737781F7A37F600A55D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B97377A1F7A37F600A55D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B97377D1F7A37F600A55D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B97377F1F7A37F600A55D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9737801F7A37F600A55D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B9737861F7A37F600A55D36 /* CustomCellDeleteViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellDeleteViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B97378A1F7A37F600A55D36 /* CustomCellDeleteViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellDeleteViewTests.m; sourceTree = "<group>"; };
+		4B97378C1F7A37F600A55D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9737911F7A37F600A55D36 /* CustomCellDeleteViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellDeleteViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9737951F7A37F600A55D36 /* CustomCellDeleteViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellDeleteViewUITests.m; sourceTree = "<group>"; };
+		4B9737971F7A37F600A55D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9737A51F7A38AC00A55D36 /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		4B9737A61F7A38AC00A55D36 /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		4B9737A91F7A392100A55D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9737AA1F7A392100A55D36 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4B9737AB1F7A392100A55D36 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		4B9737AC1F7A392100A55D36 /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		4B9737AD1F7A392100A55D36 /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		4B9737AE1F7A392100A55D36 /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		4B9737AF1F7A392100A55D36 /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		4B9737B01F7A392100A55D36 /* MASConstraintMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		4B9737B11F7A392100A55D36 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4B9737B21F7A392100A55D36 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		4B9737B31F7A392100A55D36 /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		4B9737B41F7A392100A55D36 /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		4B9737B51F7A392100A55D36 /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		4B9737B61F7A392100A55D36 /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		4B9737B71F7A392100A55D36 /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		4B9737B81F7A392100A55D36 /* MASViewConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		4B9737B91F7A392100A55D36 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		4B9737BA1F7A392100A55D36 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		4B9737BB1F7A392100A55D36 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4B9737BC1F7A392100A55D36 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		4B9737BD1F7A392100A55D36 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		4B9737BE1F7A392100A55D36 /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		4B9737BF1F7A392100A55D36 /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		4B9737C01F7A392100A55D36 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4B9737C11F7A392100A55D36 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		4B9737C21F7A392100A55D36 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		4BFD27061F7A46BD00510182 /* TLTableCellDeleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableCellDeleteView.h; sourceTree = "<group>"; };
+		4BFD27071F7A46BD00510182 /* TLTableCellDeleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableCellDeleteView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B97376B1F7A37F600A55D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9737831F7A37F600A55D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B97378E1F7A37F600A55D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B9737651F7A37F600A55D36 = {
+			isa = PBXGroup;
+			children = (
+				4B4D906A1F7A4519005B5B3E /* UIColor+HexStr.h */,
+				4B4D906B1F7A4519005B5B3E /* UIColor+HexStr.m */,
+				4BFD27061F7A46BD00510182 /* TLTableCellDeleteView.h */,
+				4BFD27071F7A46BD00510182 /* TLTableCellDeleteView.m */,
+				4B9737A51F7A38AC00A55D36 /* TestCell.h */,
+				4B9737A61F7A38AC00A55D36 /* TestCell.m */,
+				4B9737A81F7A392100A55D36 /* Masonry */,
+				4B9737701F7A37F600A55D36 /* CustomCellDeleteView */,
+				4B9737891F7A37F600A55D36 /* CustomCellDeleteViewTests */,
+				4B9737941F7A37F600A55D36 /* CustomCellDeleteViewUITests */,
+				4B97376F1F7A37F600A55D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B97376F1F7A37F600A55D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B97376E1F7A37F600A55D36 /* CustomCellDeleteView.app */,
+				4B9737861F7A37F600A55D36 /* CustomCellDeleteViewTests.xctest */,
+				4B9737911F7A37F600A55D36 /* CustomCellDeleteViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9737701F7A37F600A55D36 /* CustomCellDeleteView */ = {
+			isa = PBXGroup;
+			children = (
+				4B9737711F7A37F600A55D36 /* AppDelegate.h */,
+				4B9737721F7A37F600A55D36 /* AppDelegate.m */,
+				4B9737741F7A37F600A55D36 /* ViewController.h */,
+				4B9737751F7A37F600A55D36 /* ViewController.m */,
+				4B9737771F7A37F600A55D36 /* Main.storyboard */,
+				4B97377A1F7A37F600A55D36 /* Assets.xcassets */,
+				4B97377C1F7A37F600A55D36 /* LaunchScreen.storyboard */,
+				4B97377F1F7A37F600A55D36 /* Info.plist */,
+				4B9737801F7A37F600A55D36 /* main.m */,
+			);
+			path = CustomCellDeleteView;
+			sourceTree = "<group>";
+		};
+		4B9737891F7A37F600A55D36 /* CustomCellDeleteViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B97378A1F7A37F600A55D36 /* CustomCellDeleteViewTests.m */,
+				4B97378C1F7A37F600A55D36 /* Info.plist */,
+			);
+			path = CustomCellDeleteViewTests;
+			sourceTree = "<group>";
+		};
+		4B9737941F7A37F600A55D36 /* CustomCellDeleteViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9737951F7A37F600A55D36 /* CustomCellDeleteViewUITests.m */,
+				4B9737971F7A37F600A55D36 /* Info.plist */,
+			);
+			path = CustomCellDeleteViewUITests;
+			sourceTree = "<group>";
+		};
+		4B9737A81F7A392100A55D36 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4B9737A91F7A392100A55D36 /* Info.plist */,
+				4B9737AA1F7A392100A55D36 /* MASCompositeConstraint.h */,
+				4B9737AB1F7A392100A55D36 /* MASCompositeConstraint.m */,
+				4B9737AC1F7A392100A55D36 /* MASConstraint+Private.h */,
+				4B9737AD1F7A392100A55D36 /* MASConstraint.h */,
+				4B9737AE1F7A392100A55D36 /* MASConstraint.m */,
+				4B9737AF1F7A392100A55D36 /* MASConstraintMaker.h */,
+				4B9737B01F7A392100A55D36 /* MASConstraintMaker.m */,
+				4B9737B11F7A392100A55D36 /* MASLayoutConstraint.h */,
+				4B9737B21F7A392100A55D36 /* MASLayoutConstraint.m */,
+				4B9737B31F7A392100A55D36 /* Masonry.h */,
+				4B9737B41F7A392100A55D36 /* MASUtilities.h */,
+				4B9737B51F7A392100A55D36 /* MASViewAttribute.h */,
+				4B9737B61F7A392100A55D36 /* MASViewAttribute.m */,
+				4B9737B71F7A392100A55D36 /* MASViewConstraint.h */,
+				4B9737B81F7A392100A55D36 /* MASViewConstraint.m */,
+				4B9737B91F7A392100A55D36 /* NSArray+MASAdditions.h */,
+				4B9737BA1F7A392100A55D36 /* NSArray+MASAdditions.m */,
+				4B9737BB1F7A392100A55D36 /* NSArray+MASShorthandAdditions.h */,
+				4B9737BC1F7A392100A55D36 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				4B9737BD1F7A392100A55D36 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				4B9737BE1F7A392100A55D36 /* View+MASAdditions.h */,
+				4B9737BF1F7A392100A55D36 /* View+MASAdditions.m */,
+				4B9737C01F7A392100A55D36 /* View+MASShorthandAdditions.h */,
+				4B9737C11F7A392100A55D36 /* ViewController+MASAdditions.h */,
+				4B9737C21F7A392100A55D36 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B97376D1F7A37F600A55D36 /* CustomCellDeleteView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B97379A1F7A37F600A55D36 /* Build configuration list for PBXNativeTarget "CustomCellDeleteView" */;
+			buildPhases = (
+				4B97376A1F7A37F600A55D36 /* Sources */,
+				4B97376B1F7A37F600A55D36 /* Frameworks */,
+				4B97376C1F7A37F600A55D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCellDeleteView;
+			productName = CustomCellDeleteView;
+			productReference = 4B97376E1F7A37F600A55D36 /* CustomCellDeleteView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B9737851F7A37F600A55D36 /* CustomCellDeleteViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B97379D1F7A37F600A55D36 /* Build configuration list for PBXNativeTarget "CustomCellDeleteViewTests" */;
+			buildPhases = (
+				4B9737821F7A37F600A55D36 /* Sources */,
+				4B9737831F7A37F600A55D36 /* Frameworks */,
+				4B9737841F7A37F600A55D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9737881F7A37F600A55D36 /* PBXTargetDependency */,
+			);
+			name = CustomCellDeleteViewTests;
+			productName = CustomCellDeleteViewTests;
+			productReference = 4B9737861F7A37F600A55D36 /* CustomCellDeleteViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B9737901F7A37F600A55D36 /* CustomCellDeleteViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9737A01F7A37F600A55D36 /* Build configuration list for PBXNativeTarget "CustomCellDeleteViewUITests" */;
+			buildPhases = (
+				4B97378D1F7A37F600A55D36 /* Sources */,
+				4B97378E1F7A37F600A55D36 /* Frameworks */,
+				4B97378F1F7A37F600A55D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9737931F7A37F600A55D36 /* PBXTargetDependency */,
+			);
+			name = CustomCellDeleteViewUITests;
+			productName = CustomCellDeleteViewUITests;
+			productReference = 4B9737911F7A37F600A55D36 /* CustomCellDeleteViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9737661F7A37F600A55D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Tianlong;
+				TargetAttributes = {
+					4B97376D1F7A37F600A55D36 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4B9737851F7A37F600A55D36 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B97376D1F7A37F600A55D36;
+					};
+					4B9737901F7A37F600A55D36 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B97376D1F7A37F600A55D36;
+					};
+				};
+			};
+			buildConfigurationList = 4B9737691F7A37F600A55D36 /* Build configuration list for PBXProject "CustomCellDeleteView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B9737651F7A37F600A55D36;
+			productRefGroup = 4B97376F1F7A37F600A55D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B97376D1F7A37F600A55D36 /* CustomCellDeleteView */,
+				4B9737851F7A37F600A55D36 /* CustomCellDeleteViewTests */,
+				4B9737901F7A37F600A55D36 /* CustomCellDeleteViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B97376C1F7A37F600A55D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B97377E1F7A37F600A55D36 /* LaunchScreen.storyboard in Resources */,
+				4B97377B1F7A37F600A55D36 /* Assets.xcassets in Resources */,
+				4B9737791F7A37F600A55D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9737841F7A37F600A55D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B97378F1F7A37F600A55D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B97376A1F7A37F600A55D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9737761F7A37F600A55D36 /* ViewController.m in Sources */,
+				4B4D906C1F7A4519005B5B3E /* UIColor+HexStr.m in Sources */,
+				4BFD27081F7A46BD00510182 /* TLTableCellDeleteView.m in Sources */,
+				4B9737A71F7A38AC00A55D36 /* TestCell.m in Sources */,
+				4B9737811F7A37F600A55D36 /* main.m in Sources */,
+				4B9737731F7A37F600A55D36 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9737821F7A37F600A55D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B97378B1F7A37F600A55D36 /* CustomCellDeleteViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B97378D1F7A37F600A55D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9737961F7A37F600A55D36 /* CustomCellDeleteViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9737881F7A37F600A55D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B97376D1F7A37F600A55D36 /* CustomCellDeleteView */;
+			targetProxy = 4B9737871F7A37F600A55D36 /* PBXContainerItemProxy */;
+		};
+		4B9737931F7A37F600A55D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B97376D1F7A37F600A55D36 /* CustomCellDeleteView */;
+			targetProxy = 4B9737921F7A37F600A55D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B9737771F7A37F600A55D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9737781F7A37F600A55D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B97377C1F7A37F600A55D36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B97377D1F7A37F600A55D36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B9737981F7A37F600A55D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B9737991F7A37F600A55D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B97379B1F7A37F600A55D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY57U9SGN;
+				INFOPLIST_FILE = CustomCellDeleteView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyingke.app.CustomCellDeleteView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B97379C1F7A37F600A55D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY57U9SGN;
+				INFOPLIST_FILE = CustomCellDeleteView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyingke.app.CustomCellDeleteView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B97379E1F7A37F600A55D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY57U9SGN;
+				INFOPLIST_FILE = CustomCellDeleteViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyingke.app.CustomCellDeleteViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCellDeleteView.app/CustomCellDeleteView";
+			};
+			name = Debug;
+		};
+		4B97379F1F7A37F600A55D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY57U9SGN;
+				INFOPLIST_FILE = CustomCellDeleteViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyingke.app.CustomCellDeleteViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCellDeleteView.app/CustomCellDeleteView";
+			};
+			name = Release;
+		};
+		4B9737A11F7A37F600A55D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY57U9SGN;
+				INFOPLIST_FILE = CustomCellDeleteViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyingke.app.CustomCellDeleteViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCellDeleteView;
+			};
+			name = Debug;
+		};
+		4B9737A21F7A37F600A55D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY57U9SGN;
+				INFOPLIST_FILE = CustomCellDeleteViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyingke.app.CustomCellDeleteViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCellDeleteView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9737691F7A37F600A55D36 /* Build configuration list for PBXProject "CustomCellDeleteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9737981F7A37F600A55D36 /* Debug */,
+				4B9737991F7A37F600A55D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B97379A1F7A37F600A55D36 /* Build configuration list for PBXNativeTarget "CustomCellDeleteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B97379B1F7A37F600A55D36 /* Debug */,
+				4B97379C1F7A37F600A55D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B97379D1F7A37F600A55D36 /* Build configuration list for PBXNativeTarget "CustomCellDeleteViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B97379E1F7A37F600A55D36 /* Debug */,
+				4B97379F1F7A37F600A55D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9737A01F7A37F600A55D36 /* Build configuration list for PBXNativeTarget "CustomCellDeleteViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9737A11F7A37F600A55D36 /* Debug */,
+				4B9737A21F7A37F600A55D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9737661F7A37F600A55D36 /* Project object */;
+}
